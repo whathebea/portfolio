@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#C7E0DA"/>
+    <title>beatriz gracia</title>
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+    <link rel="apple-touch-icon" href="/assets/images/apple-icon.png">
+    <link rel="icon" type="image/x-icon" href="https://twemoji.maxcdn.com/2/svg/1f5fb.svg">
+  </head>
+  <body>
+    <header class="header" id="header">
+      <nav class="nav container">
+        <div class="nav__logo"><span><h1>beatriz</h1><p>developer</p></span></div>
+        <div></div>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link">home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">about</a>
+            </li>
+            <li class="nav__item">
+              <a href="#projects" class="nav__link">projects</a>
+            </li>
+
+            <i class="bx bx-moon change-theme" id="theme-button"></i>
+          </ul>
+
+          <div class="nav__close" id="nav-close">
+            <i class="bx bx-x"></i>
+          </div>
+        </div>
+
+        <div class="nav__btns">
+          <!-- Theme change button -->
+
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="bx bx-menu"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home" id="home">
+        <div class="home__container container grid">
+          <svg
+            viewBox="0 0 278 133"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="illu__semi"
+              d="M278 132.5C278 97.3588 263.355 63.6569 237.288 38.8084C211.22 13.9598 175.865 2.65309e-06 139 0C102.135 -2.65309e-06 66.7797 13.9598 40.7122 38.8083C14.6446 63.6569 5.56648e-06 97.3588 0 132.5L139 132.5H278Z"
+            />
+            <circle class="illu__full" cx="140.5" cy="64.5" r="45.5" />
+            <path
+              class="illu__triangle"
+              d="M141.5 42L193.895 132.75H89.1055L141.5 42Z"
+            />
+            <ellipse class="illu__star" cx="93" cy="26.5" rx="2" ry="2.5" />
+          </svg>
+          <div class="home__title--container">
+              <div class="title--name">
+                <p>hello! my name is</p>
+                <p><h1>beatriz</h1></p>
+              </div>
+              <div class="title--place">
+                  <p>i'm a developer based in brazil</p>
+              </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== ABOUT ====================-->
+      <section class="about" id="about">
+        <div class="about__container container">
+          <h1>About me</h1>
+          <img class="about__picture" src="/assets/images/profile-pic.jpg" alt="My face!">
+          <p class="about__description">I’m a 21 year old woman from Brazil. Besides coding I also enjoy cooking (I make the best orange chicken) and also gaming. I’ve been playing with code since I was little and only recently I decided to follow this path. I hope to make a great career out of it.</p>
+          <div class="about__columns">
+          <ul class="about__list">
+            <h2 class="about__heading">Skills</h2>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Javascript</li>
+            <li>GIT</li>
+            <li>Figma</li>
+            <li>SASS</li>
+          </ul>
+        <ul class="about__list">
+          <h2 class="about__heading">Studying</h2>
+          <li>ReactJS</li>
+          <li>Golang</li>
+          <li>UX/UI Design</li>
+          <li>SQL & Database</li>
+        </ul>
+      </div>
+        <h2 class="about__heading">Work</h2>
+        <p class="about__list">English Teacher at Wizard by Pearson
+          <span>2020 - now</span></p>
+        </div>
+      </section>
+      <!--==================== PROJECTS ====================-->
+      <section class="projects" id="projects">
+        <div class="projects__container container">
+          <h1>Projects</h1>
+
+          <div class="projects__box">
+            <h3 class="projects__box--heading">Golang Learning Repo</h3>
+            <p class="projects__box--paragraph">Simple repository with all my Golang Projects: Web Server</p>
+            <button class="projects__box--button"><a href="https://github.com/whathebea/learning-golang" target="__blank">github</a></button>
+          </div>
+
+          <div class="projects__box">
+            <h3 class="projects__box--heading">Responsive Webdesign</h3>
+            <p class="projects__box--paragraph">Repository with all my projects from “Responsive Webdesign” subject from college. Mainly responsive pages made with HTML and CSS.</p>
+            <button class="projects__box--button"><a href="https://github.com/whathebea/facul-resp-webdesign" target="__blank">github</a></button>
+          </div>
+
+          <div class="projects__box">
+            <h3 class="projects__box--heading">Binary/Decimal number converter</h3>
+            <p class="projects__box--paragraph">A simple number converter made with C. It was part of a college assignment.</p>
+            <button class="projects__box--button"><a href="https://github.com/whathebea/calc-c" target="__blank">github</a></button>
+          </div>
+
+        </div>
+      </section>
+    </main>
+
+    <script src="/assets/js/main.js"></script>
+  </body>
+</html>
