@@ -460,8 +460,3 @@ body.dark-theme {
   }
 }
 
-@media screen and (min-width: 1366px) {
-  .main {
-    margin-left: 0px;
-  }
-}
